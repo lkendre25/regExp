@@ -2,14 +2,13 @@
 
 shopt -s extglob
 
-pattern="^[A-Z]+[a-z]{2}$"
-username="All"
+pattern="^[91]{2}[-][0-9]{10}$"
+num=91-8668282906
 
-if [[ $username =~ $pattern ]];then
-   echo "Welcome $username"
+if [[ $num =~ $pattern ]];then
+   echo "Welcome $num"
 else
    echo "Sorry!! "
 fi
 
-#!/bin/bash
 
