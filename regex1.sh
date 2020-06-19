@@ -3,13 +3,13 @@
 shopt -s extglob
 
 pattern="^[A-Z]+[a-z]{2}$"
-username="All"
+lastname="Lll"
 
-if [[ $username =~ $pattern ]];then
-   echo "Welcome $username"
+if [[ $lastname =~ $pattern ]];then
+   echo "Welcome $lastname"
 else
    echo "Sorry!! "
 fi
 
-#!/bin/bash
+
 
