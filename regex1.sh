@@ -2,8 +2,8 @@
 
 shopt -s extglob
 
-pattern="^[A-Z]+[a-z]{2}$"
-username="All"
+pattern="^[abc]{3}\.[xyz]*[\@]{1}[bl\.co]{5}[\.in]*$"
+username="abc.x@bl.co.in"
 
 if [[ $username =~ $pattern ]];then
    echo "Welcome $username"
